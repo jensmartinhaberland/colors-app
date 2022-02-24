@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import ColorBox from "./ColorBox";
+import "rc-slider/assets/index.css"; // this has to be before "Palette.css"
 import "../components/styles/Palette.css";
 import Slider from "rc-slider";
-import "rc-slider/assets/index.css";
 
 class Palette extends Component {
   constructor(props) {
