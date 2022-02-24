@@ -1,0 +1,55 @@
+.Navbar {
+  align-items: center;
+  border-bottom: 0.5px solid darkslategrey;
+  display: flex;
+  justify-content: flex-start;
+  height: 6vh;
+}
+
+.logo {
+  align-items: center;
+  /*background-color: #eceff1;*/
+  color: darkslategrey;
+  display: flex;
+  font-family: "Courier New", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  height: 100%;
+  letter-spacing: 2px;
+  margin-right: 15px;
+  padding: 0 13px;
+  text-transform: uppercase;
+}
+
+.logo a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.slider {
+  display: inline-block;
+  margin: 0 20px;
+  width: 340px;
+}
+
+.rc-slider-track {
+  background-color: transparent;
+}
+
+.rc-slider-rail {
+  height: 8px;
+}
+
+.rc-slider-handle,
+.rc-slider-handle:active,
+.rc-slider-handle:focus,
+.rc-slider-handle:hover {
+  background-color: darkslategrey;
+  border: 2px solid darkslategrey;
+  box-shadow: none;
+  height: 13px;
+  margin-left: -7px;
+  margin-top: -3px;
+  outline: none;
+  width: 13px;
+}

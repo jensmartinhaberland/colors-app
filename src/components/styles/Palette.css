@@ -6,31 +6,3 @@
   /*height: 100 %;*/
   height: 90%;
 }
-
-.slider {
-  display: inline-block;
-  margin: 0 20px;
-  width: 340px;
-}
-
-.rc-slider-track {
-  background-color: transparent;
-}
-
-.rc-slider-rail {
-  height: 8px;
-}
-
-.rc-slider-handle,
-.rc-slider-handle:active,
-.rc-slider-handle:focus,
-.rc-slider-handle:hover {
-  background-color: darkslategrey;
-  border: 2px solid darkslategrey;
-  box-shadow: none;
-  height: 13px;
-  margin-left: -7px;
-  margin-top: -3px;
-  outline: none;
-  width: 13px;
-}
