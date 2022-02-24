@@ -1,6 +1,6 @@
 .Navbar {
   align-items: center;
-  border-bottom: 0.5px solid darkslategrey;
+  /*border-bottom: 0.5px solid darkslategrey;*/
   display: flex;
   justify-content: flex-start;
   height: 6vh;
@@ -9,7 +9,7 @@
 .logo {
   align-items: center;
   /*background-color: #eceff1;*/
-  color: darkslategrey;
+  color: black;
   display: flex;
   font-family: "Courier New", serif;
   font-size: 2rem;
@@ -64,5 +64,4 @@
 
 .select-container {
   margin: 0 15px 0 auto;
-
 }
