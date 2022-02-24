@@ -26,10 +26,18 @@
   text-decoration: none;
 }
 
+.slider-container span {
+  color: darkslategrey;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 .slider {
   display: inline-block;
   margin: 0 20px;
-  width: 340px;
+  width: 200px;
 }
 
 .rc-slider-track {
@@ -52,4 +60,9 @@
   margin-top: -3px;
   outline: none;
   width: 13px;
+}
+
+.select-container {
+  margin: 0 15px 0 auto;
+
 }
